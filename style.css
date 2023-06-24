@@ -310,9 +310,13 @@ h1, h2, h3{
 }
 
 /* Media Queries */
-@media (max-width: 767px) {
+@media (max-width: 700px) {
     #header {
+        background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/kieran.jpg') center/cover no-repeat fixed;
         background-size: cover;
+    }
+    .header-content h1{
+        font-size: 40px;
     }
 }
 
@@ -333,13 +337,6 @@ h1, h2, h3{
     .portfolio-grid > div iframe{
         height: 600px;
         object-fit: cover;
-    }
-    #header {
-        background-size: cover;
-        margin-right: 0;
-    }
-    .header-content h1{
-        font-size: 40px;
     }
 }
 @media(min-width: 576px){
