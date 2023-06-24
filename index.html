@@ -118,6 +118,7 @@
                         <p class = "lead"><i class = "fas fa-phone-alt"></i> 650 862 5515</p>
                         <p class = "lead"><i class = "fas fa-envelope"></i> khalilov.davud@gmail.com</p>
                         <form action="https://formsubmit.co/khalilov.davud@gmail.com" method="POST">
+                            <input type="hidden" name="_captcha" value="false">
                             <label for="name">Name:</label>
                             <input type="text" class = "form-control" id="name" name="name" required>
                             <label for="email">Email:</label>
@@ -131,7 +132,7 @@
                             <!-- Add any additional content or instructions here -->
                         </div>
                     </div>
-                    <!-- <script>
+                    <script>
                         // Add an event listener to the form submission
                         document.querySelector('form').addEventListener('submit', function(event) {
                             event.preventDefault(); // Prevent the default form submission behavior
@@ -142,7 +143,7 @@
                             // Show the thank you message
                             document.getElementById('thank-you').style.display = 'block';
                         });
-                    </script> -->
+                    </script>
 
                     <div class = "contact-right">
                         <img src = "images/about.jpg" alt = "contact image">
