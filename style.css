@@ -42,6 +42,10 @@ video{
     width: 100%;
     display: block;
 }
+iframe{
+    width: 100%;
+    display: block;
+}
 .container{
     max-width: 1200px;
     margin: 0 auto;
@@ -186,9 +190,9 @@ h1, h2, h3{
 .portfolio-grid > div{
     transition: var(--transition);
 }
-.portfolio-grid > div:hover{
+/* .portfolio-grid > div:hover{
     transform: scale(0.9);
-}
+} */
 
 /* contact */
 #contact{
