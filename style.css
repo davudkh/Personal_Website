@@ -310,6 +310,11 @@ h1, h2, h3{
 }
 
 /* Media Queries */
+@media (max-width: 767px) {
+    #header {
+        background-size: cover;
+    }
+}
 
 @media(min-width: 300px){
     .work-bottom{
