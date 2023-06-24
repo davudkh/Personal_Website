@@ -83,7 +83,9 @@ h1, h2, h3{
 
 /* header */
 #header{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/lake.jpg') center/cover no-repeat fixed;
+    background-image: url('images/lake2.jpg');
+    background-position: center;
+    background-size: cover;
     margin-left: 0;
     justify-content: flex-start;
     align-items: flex-end;
@@ -165,7 +167,9 @@ h1, h2, h3{
 
 /* work */
 #work{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/mission.jpg') center/cover no-repeat fixed;
+    background-image: url('images/mission2.jpg') ;
+    background-position: center;
+    background-size: cover;
     color: var(--light-color);
 }
 #work .title h2, #work h3{
@@ -312,7 +316,7 @@ h1, h2, h3{
 /* Media Queries */
 @media (max-width: 700px) {
     #header {
-        background-image: url('images/lake.jpg');
+        background-image: url('images/lake2.jpg');
         background-position: center;
         background-size: cover;
     }
@@ -320,7 +324,7 @@ h1, h2, h3{
         font-size: 40px;
     }
     #work{
-        background-image: url('images/mission.jpg') ;
+        background-image: url('images/mission2.jpg') ;
         background-position: center;
         background-size: cover;
     }
