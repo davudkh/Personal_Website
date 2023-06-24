@@ -329,6 +329,13 @@ h1, h2, h3{
         height: 600px;
         object-fit: cover;
     }
+    #header {
+        background-size: cover;
+        margin-right: 0;
+    }
+    .header-content h1{
+        font-size: 40px;
+    }
 }
 @media(min-width: 576px){
     .title h2{
