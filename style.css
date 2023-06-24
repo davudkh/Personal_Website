@@ -312,12 +312,17 @@ h1, h2, h3{
 /* Media Queries */
 @media (max-width: 700px) {
     #header {
-        background-image: url('images/lake.jpg');
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/lake.jpg');
         background-position: center;
         background-size: cover;
     }
     .header-content h1{
         font-size: 40px;
+    }
+    #work{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.3)), url('images/mission.jpg') ;
+        background-position: center;
+        background-size: cover;
     }
 }
 
