@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Style for the header box */
+.header-box {
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 0);
+    width: 100%;
+    padding: 15px;
+    display: flex; /* Use flexbox to create a horizontal layout */
+    justify-content: space-between; /* Distribute items to both ends of the container */
+    align-items: center; /* Vertically center the items */
+    top: 0px;
+    position: sticky;
+    z-index: 9;
+}
+
+.header-text-left {
+    /* Style for "Davud Khalilov" on the left */
+    text-decoration: none;
+    margin-right: auto; /* Push it to the left by pushing everything else to the right */
+    color: #ffffff;
+}
+
+.header-text-left:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
+
+.header-text-right {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.header-text-right a {
+    text-decoration: none;
+    transition: text-decoration 0.2s;
+    color: #ffffff;
+}
+
+.header-text-right:hover {
+    text-decoration: underline; /* Underline the link on hover */
+}
+
+
+
+
+
+

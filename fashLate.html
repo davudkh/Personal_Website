@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Work</title>
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="fashLateStyle.css">
+    <link rel = "stylesheet" href = "menu.css">
+    <link href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600, 700,900|Oswald:400,700" rel="stylesheet">
+    
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="portfolio.js" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <div class="header-box">
+        <a href = "index.html" class="header-text-left">Davud Khalilov</a>
+        <div>
+            <a href = "commissions.html" class="header-text-right">Commissions</a>
+            <a href = "personal.html" class="header-text-right">Personal</a>
+        </div>
+    </div>
+    <header>
+        <h1 class="page-title">FASHIONABLY LATE</h1>
+    </header>
+    
+    <div class="container">
+        <div class="image-container">
+            <img src="images\fashionablyLate\fig (2).jpg" alt="">
+            <img src="images\fashionablyLate\cover.jpg" alt="">
+            <img src="images\fashionablyLate\fig (11).jpg" alt="">
+            <img src="images\fashionablyLate\fig (5).jpg" alt="">
+            <img src="images\fashionablyLate\fig (6).jpg" alt="">
+            <img src="images\fashionablyLate\fig (7).jpg" alt="">
+        </div>
+    </div>
+
+    <!-- Swiper Modal -->
+    <div class="swiper-modal">
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images\fashionablyLate\fig (2).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images\fashionablyLate\cover.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images\fashionablyLate\fig (11).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images\fashionablyLate\fig (5).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images\fashionablyLate\fig (6).jpg" alt=""></div>
+                <div class="swiper-slide"><img src="images\fashionablyLate\fig (7).jpg" alt=""></div>
+            </div>
+            <!-- Add Navigation Arrows -->
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <!-- Close button -->
+        <div class="swiper-close-btn" onclick="document.body.classList.remove('swiper-modal-open')">X</div>
+    </div>
+</body>
+</html>
